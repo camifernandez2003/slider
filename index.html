@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
+    <title>Condicionales</title>
+    <style>
+      /* Asegura que todo el contenido se ajuste a la pantalla */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center; /* Centrado horizontal */
+        align-items: center; /* Centrado vertical */
+      }
+
+      #sliders-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Asegura que ocupa toda la altura */
+      }
+
+      canvas {
+        margin-bottom: 20px; /* Separar el canvas de los sliders */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sliders-container"></div>
+    <!-- Contenedor para los sliders -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
